@@ -9,7 +9,7 @@ int getsub(char *s, int limit)
 {
 	char c;
 	int i = 0;
-	for (i = 0; i < limit - 1 && ((c = getchar()) != EOF) && c != '\n'; i++)	//若第n个字符为\n i=n
+	for (i = 0; i < limit - 1 && ((c = getchar()) != EOF) && c != '\n'; i++)	//脠么碌脷n赂枚脳脰路没脦陋\n i=n
 		s[i] = c;
 	if (c == '\n')
 	{
